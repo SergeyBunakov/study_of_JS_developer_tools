@@ -36,5 +36,7 @@
 }
 }
 
-- npm install jest -D
+- npm install -D jest
 - npm install -D @babel/preset-env
+- npm install -D sass
+- npm install -D npm-run-all
