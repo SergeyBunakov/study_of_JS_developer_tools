@@ -40,3 +40,5 @@
 - npm install -D @babel/preset-env
 - npm install -D sass
 - npm install -D npm-run-all
+
+- npm install -D jest @babel/preset-env sass npm-run-all
