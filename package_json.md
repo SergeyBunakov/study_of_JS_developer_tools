@@ -42,3 +42,7 @@
 - npm install -D npm-run-all
 
 - npm install -D jest @babel/preset-env sass npm-run-all
+
+\*\* Babel
+
+- npm install --save-dev @babel/core @babel/cli
