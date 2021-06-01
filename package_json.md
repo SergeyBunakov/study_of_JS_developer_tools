@@ -43,6 +43,31 @@
 
 - npm install -D jest @babel/preset-env sass npm-run-all
 
+## \*\*\*\* For .bebelrs
+
+{
+"presets": ["@babel/preset-env"]
+}
+
+---
+
 \*\* Babel
 
-- npm install --save-dev @babel/core @babel/cli
+- npm install --save-dev @babel/core @babel/cli (обов'язково)
+- npm install -D @babel/plugin-proposal-object-rest-spread
+- npm install -D @babel/plugin-transform-arrow-functions
+- npm install -D @babel/preset-env
+
+## \*\*\*\* For .bebelrs
+
+{
+"plugins": [
+"@babel/plugin-proposal-object-rest-spread",
+"@babel/plugin-transform-arrow-functions"
+]
+}
+
+-- npm install --save core-js@3
+-- yarn add core-js@3
+
+---
