@@ -4,17 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=production",
+    "watch": "webpack --mode=development --devtool eval-source-map"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": { 
+  "devDependencies": {
     "@babel/cli": "^7.14.3",
     "@babel/core": "^7.14.3"
-  },
-  "dependencies": {
-    "core-js": "^3.13.1",
-    "react": "16.5"
   }
 }

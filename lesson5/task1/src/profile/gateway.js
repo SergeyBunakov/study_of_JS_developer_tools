@@ -1,4 +1,4 @@
-// експортуйте fetchUser як  export  за заьовчуванням
+// експортуйте fetchUser як  export  за замовчуванням
 
 export default async function fetchUser(userId) {
     console.log('implementation for fetchUser');

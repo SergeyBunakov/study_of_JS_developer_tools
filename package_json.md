@@ -51,6 +51,8 @@
 
 ---
 
+- npm install -D webpack webpak-cli
+
 \*\* Babel
 
 - npm install --save-dev @babel/core @babel/cli (обов'язково)
